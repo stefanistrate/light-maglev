@@ -2,8 +2,9 @@
 
 A tmux theme based on [Maglev](https://github.com/caiogondim/maglev) and
 [tmux-colors-solarized](https://github.com/seebi/tmux-colors-solarized), made to
-work together with
-[bullet-train.zsh](https://github.com/caiogondim/bullet-train.zsh) theme.
+work nicely with
+[bullet-train.zsh](https://github.com/caiogondim/bullet-train.zsh) for
+oh-my-zsh.
 
 ## Installation
 
