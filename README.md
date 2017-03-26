@@ -21,7 +21,6 @@ You will have to declare the tmux plugins and the theme in your `~/.tmux.conf`:
 # List of plugins.
 set -g @plugin 'stefanistrate/solarized-maglev'
 set -g @plugin 'tmux-plugins/tpm'
-set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 
 # Initialize the tmux plugin manager.
