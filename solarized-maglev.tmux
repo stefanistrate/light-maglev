@@ -3,6 +3,8 @@
 set -e
 
 # Set up the prefix highlight plugin.
+tmux set -g @prefix_highlight_fg 'white'
+tmux set -g @prefix_highlight_bg 'blue'
 tmux set -g @prefix_highlight_show_copy_mode 'on'
 tmux set -g @prefix_highlight_copy_mode_attr 'fg=black,bg=yellow,bold'
 
