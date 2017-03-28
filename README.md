@@ -1,14 +1,13 @@
-# Solarized Maglev
+# Light Maglev
 
-A tmux theme based on [Maglev](https://github.com/caiogondim/maglev) and
-[tmux-colors-solarized](https://github.com/seebi/tmux-colors-solarized), made to
-work nicely with
+A light tmux theme based on [Maglev](https://github.com/caiogondim/maglev), made
+to work nicely with
 [bullet-train.zsh](https://github.com/caiogondim/bullet-train.zsh) for
 oh-my-zsh.
 
 ## Installation
 
-This plugin depends on the following:
+This theme depends on the following:
 
 * [tmux](http://tmux.github.io/)
 * [tpm](https://github.com/tmux-plugins/tpm)
@@ -19,7 +18,7 @@ You will have to declare the tmux plugins and the theme in your `~/.tmux.conf`:
 
 ```bash
 # List of plugins.
-set -g @plugin 'stefanistrate/solarized-maglev'
+set -g @plugin 'stefanistrate/light-maglev'
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 
