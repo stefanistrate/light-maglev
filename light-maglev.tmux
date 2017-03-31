@@ -51,6 +51,12 @@ apply_theme() {
   window_status_last_fg=blue
   tmux setw -g window-status-last-style fg=$window_status_last_fg
 
+  # Window activity colors.
+  window_status_activity_fg=default
+  window_status_activity_bg=default
+  window_status_activity_attr=underscore
+  tmux setw -g window-status-activity-style fg=$window_status_activity_fg,bg=$window_status_activity_bg,$window_status_activity_attr
+
   # Pane border colors.
   pane_border_fg=brightblack
   pane_active_border_fg=blue
