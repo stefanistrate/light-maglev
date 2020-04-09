@@ -58,10 +58,10 @@ apply_theme() {
   tmux setw -g window-status-activity-style fg=$window_status_activity_fg,bg=$window_status_activity_bg,$window_status_activity_attr
 
   # Pane border colors.
-  pane_border_fg=brightblack
-  pane_active_border_fg=blue
-  tmux set -g pane-border-style fg=$pane_border_fg
-  tmux set -g pane-active-border-style fg=$pane_active_border_fg
+  pane_border_bg=red
+  pane_active_border_bg=green
+  tmux set -g pane-border-style bg=$pane_border_bg
+  tmux set -g pane-active-border-style bg=$pane_active_border_bg
 
   # Pane number display.
   tmux set -g display-panes-colour red
