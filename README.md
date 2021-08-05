@@ -18,7 +18,7 @@ You will have to declare the tmux plugins and the theme in your `~/.tmux.conf`:
 
 ```bash
 # List of plugins.
-set -g @plugin 'stefanistrate/light-maglev'
+set -g @plugin 'stefanistrate/light-maglev#main'
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 
